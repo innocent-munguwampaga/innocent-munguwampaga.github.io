@@ -31,3 +31,25 @@ I also participated in the Erasmus+ International Exchange Program at the Univer
 
 The repository is organized as follows:
 
+innocent-munguwampaga.github.io/
+│
+├── index.html # Home page
+├── about.html # About me section
+├── education.html # Academic background
+├── research.html # Research interests and experience
+├── projects.html # Research and technical projects
+├── experience.html # Teaching and professional experience
+├── awards.html # Scholarships and awards
+├── leadership.html # Leadership and volunteering
+├── skills.html # Technical and soft skills
+├── gallery.html # Academic activities gallery
+├── contact.html # Contact information
+│
+├── css/
+│ └── style.css # Website styling
+│
+├── images/
+│ └── profile.jpg # Profile photo and gallery images
+│
+└── cv/
+└── Innocent_Munguwampaga_CV.pdf

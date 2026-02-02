@@ -1,0 +1,121 @@
+/* GENERAL STYLE */
+body {
+font-family: "Segoe UI", Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f6fb;
+color: #222;
+}
+
+/* NAVIGATION BAR */
+nav {
+background-color: #0b2c4a;
+padding: 12px 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+nav a {
+color: #ffffff;
+margin: 8px 12px;
+text-decoration: none;
+font-weight: 600;
+font-size: 14px;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+/* HEADER */
+header {
+background: linear-gradient(135deg, #0b2c4a, #123e6b);
+color: white;
+padding: 60px 20px;
+text-align: center;
+}
+
+header h1 {
+margin-bottom: 10px;
+font-size: 36px;
+}
+
+header h3 {
+font-weight: normal;
+}
+
+/* PAGE CONTENT */
+section, h2, p, ul {
+max-width: 900px;
+margin: auto;
+padding: 15px;
+}
+
+/* TITLES */
+h2 {
+color: #0b2c4a;
+border-bottom: 2px solid #0b2c4a;
+padding-bottom: 5px;
+}
+
+/* BUTTON */
+.button {
+display: inline-block;
+background: #0b2c4a;
+color: white;
+padding: 12px 20px;
+border-radius: 6px;
+text-decoration: none;
+font-weight: bold;
+margin-top: 15px;
+}
+
+.button:hover {
+background: #154c80;
+}
+
+/* GALLERY */
+.gallery {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.gallery img {
+width: 250px;
+margin: 10px;
+border-radius: 8px;
+box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+header h1 {
+font-size: 26px;
+}
+
+nav {
+flex-direction: column;
+align-items: center;
+}
+
+nav a {
+font-size: 13px;
+}
+
+.gallery img {
+width: 90%;
+}
+}
+.profile-pic {
+width: 160px;
+height: 160px;
+border-radius: 50%;
+object-fit: cover;
+border: 4px solid white;
+margin-bottom: 15px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
